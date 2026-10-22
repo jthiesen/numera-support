@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3544 3544" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <defs>
+        <clipPath id="roundedMask">
+            <rect x="0" y="0" width="3544" height="3544" rx="720" ry="720"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#roundedMask)">
+        <g id="Background-colors" serif:id="Background colors">
+            <g id="Background-left" serif:id="Background left" transform="matrix(1.019075,0,0,1,0,0)">
+                <rect x="0" y="0" width="1738.491" height="3543.307" style="fill:rgb(27,35,53);"/>
+            </g>
+            <rect id="Background-right" serif:id="Background right" x="1771.654" y="0" width="1771.654" height="3543.307" style="fill:rgb(53,209,234);"/>
+        </g>
+        <g id="Minus" transform="matrix(0.920833,0,0,1,71.255329,7)">
+            <path d="M552.952,2499.499L1310.203,2499.499" style="fill:none;stroke:white;stroke-width:216.74px;"/>
+        </g>
+        <g id="Plus">
+            <g id="Plus-horiz" serif:id="Plus horiz" transform="matrix(0.920833,0,0,1,71.255329,-1446.498657)">
+                <path d="M552.952,2499.499L1310.203,2499.499" style="fill:none;stroke:white;stroke-width:216.74px;"/>
+            </g>
+            <g id="Plus-vert" serif:id="Plus vert" transform="matrix(0,0.920833,-1,0,3428.581507,195.17248)">
+                <path d="M552.952,2499.499L1310.203,2499.499" style="fill:none;stroke:white;stroke-width:216.74px;"/>
+            </g>
+        </g>
+        <g>
+            <g id="Equals-bottom" serif:id="Equals bottom" transform="matrix(0.920833,0,0,1,1770.320396,-520.759943)">
+                <path d="M552.952,2499.499L1310.203,2499.499" style="fill:none;stroke:rgb(25,32,50);stroke-width:216.74px;"/>
+            </g>
+            <g id="Equals-top" serif:id="Equals top" transform="matrix(0.920833,0,0,1,1770.320396,-930.756132)">
+                <path d="M552.952,2499.499L1310.203,2499.499" style="fill:none;stroke:rgb(25,32,50);stroke-width:216.74px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
