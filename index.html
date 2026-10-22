@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Numera — Support</title>
-<meta name="description" content="Support for Numera, a high-precision RPN and traditional calculator.">
+<meta name="description" content="Numera is a scientific calculator for iPhone and iPad that fully supports both RPN and Traditional algebraic entry.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -15,13 +15,52 @@
   <img src="logo.svg" alt="Numera app icon" width="96" height="96">
   <div>
     <h1>Numera Support</h1>
-    <p>A high-precision calculator with RPN and traditional input.</p>
+    <p>Precise RPN Calculator</p>
   </div>
 </header>
 
-<section class="contact">
-  <h2>Contact</h2>
-  <p><a href="mailto:numera@fastmail.com">numera@fastmail.com</a></p>
+<section class="about">
+  <h2>About Numera</h2>
+  <p>Numera is a scientific calculator for iPhone and iPad built around one idea: give engineers,
+    scientists, and students a calculator that doesn't force them into a single way of thinking.
+    Switch freely between Reverse Polish Notation (RPN) and Traditional algebraic entry — Numera is
+    one of the only calculator apps that fully supports both, with dedicated layouts for each rather
+    than a bolted-on mode toggle.</p>
+  <p>RPN traces back to the classic HP calculators of the 1970s and 80s: instead of typing
+    "3 + 4 =", you enter the numbers first and the operation last — 3, Enter, 4, +. No parentheses,
+    no operator precedence to puzzle over, and once it clicks, it's noticeably faster for real
+    calculation work. Numera carries that lineage forward, reimagined for a touchscreen: a live,
+    multi-line stack display you can see and manipulate directly, and
+    layouts designed for a phone or tablet rather than a 1980s LCD.</p>
+  <p>If RPN isn't your thing — or you're coming from a traditional calculator — Numera's Traditional
+    algebraic mode is a first-class alternative, not an afterthought: dedicated layouts, not a
+    bolted-on toggle.</p>
+
+  <h3>Precision that matters</h3>
+  <p>Most calculator apps compute in double-precision floating point — about 15-17 reliable digits.
+    Numera's arithmetic engine works in arbitrary precision, carrying 34 significant digits by
+    default, so long chains of calculation don't quietly erode your accuracy.</p>
+
+  <h3>Features</h3>
+  <ul>
+    <li>Full RPN mode with stack — swap, roll, drop, pick</li>
+    <li>Traditional algebraic entry as a first-class alternative, not an afterthought</li>
+    <li>Complete scientific function set: trigonometry, logarithms, exponentials, roots, powers,
+      factorials, combinations, permutations, percentages</li>
+    <li>Unit and currency conversion</li>
+    <li>Date/Time calculations and live, DST-aware timezone conversion</li>
+  </ul>
+
+  <h3>Numera Pro</h3>
+  <p>A one-time unlock — no subscription:</p>
+  <ul>
+    <li>Ad-free</li>
+    <li>Variables — store and recall values in named registers</li>
+    <li>Programmer mode — hexadecimal, octal, and binary with full bitwise operations</li>
+    <li>Fraction mode — perform calculations with fractions and equations</li>
+    <li>Unlimited calculation history</li>
+  </ul>
+  <p>The free version is fully functional for everyday scientific calculation.</p>
 </section>
 
 <h2>User guide</h2>
@@ -34,6 +73,15 @@
   <summary>How do I restore my Numera Pro purchase?</summary>
   <p>Open <strong>Settings</strong> and tap <strong>Restore Purchase</strong>, signed in with the same Apple
     Account used to buy Numera Pro. You can also tap <strong>Restore Purchase</strong> on the Numera Pro screen.</p>
+</details>
+
+<details>
+  <summary>How do I learn about the features of Numera?</summary>
+  <p><strong>Help Hint button:</strong> tap the <strong>?</strong> button in the upper-left corner of the
+    calculator to enter Help Hint mode. The calculator freezes, and tapping any button shows a popup describing
+    what it does. Tap the <strong>?</strong> again, or the popup, to leave Help Hint mode.</p>
+  <p><strong>User guide:</strong> in the app, open <strong>Settings</strong>
+    and tap the <strong>User Guide</strong> button at the top. You can also access it here at <a href="guide/">Numera User Guide</a>.</p>
 </details>
 
 <details>
@@ -64,7 +112,8 @@
 <details>
   <summary>Why does the display show fewer digits than I expect?</summary>
   <p>Numera rounds the display to your decimal-places setting but keeps full precision internally.
-    Tap the value on screen to toggle between the rounded and the full-precision display.</p>
+    Tap the value on screen to toggle between the rounded and the full-precision display.
+    Change the number of decimal places displayed in <strong>Settings</strong>.</p>
 </details>
 
 <details>
@@ -80,19 +129,72 @@
 
 <h2>Screenshots</h2>
 <ul class="shots">
-  <li><figure><img src="img/01-standard-scientific.png" width="1206" height="2622" loading="lazy" alt="Standard scientific calculator keypad"><figcaption>Standard scientific</figcaption></figure></li>
-  <li><figure><img src="img/02-standard-traditional.png" width="1206" height="2622" loading="lazy" alt="Standard calculator keypad"><figcaption>Standard traditional</figcaption></figure></li>
-  <li><figure><img src="img/03-rpn-scientific.png" width="1206" height="2622" loading="lazy" alt="Scientific calculator with a multi-line stack display"><figcaption>RPN scientific</figcaption></figure></li>
-  <li><figure><img src="img/04-currencies.png" width="1206" height="2622" loading="lazy" alt="Currency conversion browser"><figcaption>Currencies</figcaption></figure></li>
-  <li><figure><img src="img/05-units.png" width="1206" height="2622" loading="lazy" alt="Unit conversion browser"><figcaption>Units</figcaption></figure></li>
-  <li><figure><img src="img/06-date-time.png" width="1206" height="2622" loading="lazy" alt="Date and time calculations"><figcaption>Date &amp; time</figcaption></figure></li>
-  <li><figure><img src="img/07-timezones.png" width="1206" height="2622" loading="lazy" alt="Time zone conversion"><figcaption>Time zones</figcaption></figure></li>
-  <li><figure><img src="img/08-programmer.png" width="1206" height="2622" loading="lazy" alt="Programmer mode with hexadecimal keypad"><figcaption>Programmer</figcaption></figure></li>
-  <li><figure><img src="img/09-history.png" width="1206" height="2622" loading="lazy" alt="Calculation history"><figcaption>History</figcaption></figure></li>
-  <li><figure><img src="img/10-settings.png" width="1206" height="2622" loading="lazy" alt="Settings screen"><figcaption>Settings</figcaption></figure></li>
+  <li><figure><button class="zoom" type="button"><img src="img/01-traditional-scientific.png" width="1206" height="2622" loading="lazy" alt="Traditional scientific calculator keypad"></button><figcaption>Traditional scientific mode</figcaption></figure></li>
+  <li><figure><button class="zoom" type="button"><img src="img/02-standard-traditional.png" width="1206" height="2622" loading="lazy" alt="Standard calculator keypad"></button><figcaption>Standard traditional mode</figcaption></figure></li>
+  <li><figure><button class="zoom" type="button"><img src="img/03-rpn-scientific.png" width="1206" height="2622" loading="lazy" alt="Scientific calculator with a multi-line stack display"></button><figcaption>RPN scientific mode</figcaption></figure></li>
+  <li><figure><button class="zoom" type="button"><img src="img/04-currencies.png" width="1206" height="2622" loading="lazy" alt="Currency conversion browser"></button><figcaption>Currency conversions</figcaption></figure></li>
+  <li><figure><button class="zoom" type="button"><img src="img/05-units.png" width="1206" height="2622" loading="lazy" alt="Unit conversion browser"></button><figcaption>Unit conversions</figcaption></figure></li>
+  <li><figure><button class="zoom" type="button"><img src="img/06-date-time.png" width="1206" height="2622" loading="lazy" alt="Date and time calculations"></button><figcaption>Date &amp; time mode</figcaption></figure></li>
+  <li><figure><button class="zoom" type="button"><img src="img/07-timezones.png" width="1206" height="2622" loading="lazy" alt="Time zone conversion"></button><figcaption>Time zone conversions</figcaption></figure></li>
+  <li><figure><button class="zoom" type="button"><img src="img/08-programmer.png" width="1206" height="2622" loading="lazy" alt="Programmer mode with hexadecimal keypad"></button><figcaption>Programmer mode</figcaption></figure></li>
+  <li><figure><button class="zoom" type="button"><img src="img/09-history.png" width="1206" height="2622" loading="lazy" alt="Calculation history"></button><figcaption>Calculation history</figcaption></figure></li>
+  <li><figure><button class="zoom" type="button"><img src="img/10-settings.png" width="1206" height="2622" loading="lazy" alt="Settings screen"></button><figcaption>Settings</figcaption></figure></li>
 </ul>
 
+<section class="contact">
+  <h2>Contact</h2>
+  <p><a href="mailto:numera@fastmail.com">numera@fastmail.com</a></p>
+</section>
+
 </main>
+
+<dialog class="lightbox" aria-label="Screenshot viewer">
+  <img alt="">
+  <p class="lb-caption"></p>
+  <button type="button" class="lb-btn lb-close" aria-label="Close">&times;</button>
+  <button type="button" class="lb-btn lb-prev" aria-label="Previous screenshot">&lsaquo;</button>
+  <button type="button" class="lb-btn lb-next" aria-label="Next screenshot">&rsaquo;</button>
+</dialog>
+
+<script>
+(function () {
+  var dialog = document.querySelector(".lightbox");
+  if (!dialog || !dialog.showModal) { return; }
+  var thumbs = Array.prototype.slice.call(document.querySelectorAll(".shots .zoom"));
+  var img = dialog.querySelector("img");
+  var caption = dialog.querySelector(".lb-caption");
+  var current = 0;
+
+  function show(i) {
+    current = (i + thumbs.length) % thumbs.length;
+    var src = thumbs[current].querySelector("img");
+    img.src = src.getAttribute("src");
+    img.alt = src.alt;
+    caption.textContent = thumbs[current].parentNode.querySelector("figcaption").textContent;
+  }
+
+  thumbs.forEach(function (t, i) {
+    t.addEventListener("click", function () {
+      show(i);
+      dialog.showModal();
+      document.documentElement.classList.add("lb-open");
+    });
+  });
+
+  dialog.querySelector(".lb-prev").addEventListener("click", function (e) { e.stopPropagation(); show(current - 1); });
+  dialog.querySelector(".lb-next").addEventListener("click", function (e) { e.stopPropagation(); show(current + 1); });
+  dialog.addEventListener("click", function () { dialog.close(); });
+  dialog.addEventListener("close", function () {
+    document.documentElement.classList.remove("lb-open");
+    thumbs[current].focus();
+  });
+  dialog.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowLeft") { show(current - 1); }
+    else if (e.key === "ArrowRight") { show(current + 1); }
+  });
+})();
+</script>
+
 <footer>
   <a href="guide/">User Guide</a> &middot;
   <a href="https://jthiesen.github.io/numera-info/">Privacy Policy</a> &middot;
