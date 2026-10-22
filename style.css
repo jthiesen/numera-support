@@ -40,6 +40,13 @@ header.hero img { width: 96px; height: 96px; flex: none; }
 header.hero h1 { margin: 0; }
 header.hero p { margin: 0.25rem 0 0; color: var(--muted); }
 
+.contact {
+  background: var(--card); border-left: 4px solid var(--accent);
+  border-radius: 6px; padding: 1rem 1.25rem; margin: 1.5rem 0;
+}
+.contact h2 { margin: 0 0 0.25rem; font-size: 1.15rem; }
+.contact p { margin: 0; font-size: 1.1rem; }
+
 details { border-bottom: 1px solid var(--rule); padding: 0.6rem 0; }
 summary { cursor: pointer; font-weight: 600; }
 details > :not(summary) { margin: 0.5rem 0 0; }
