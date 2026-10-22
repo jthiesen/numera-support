@@ -62,7 +62,7 @@ details pre {
 .shots figure { margin: 0; }
 .shots img {
   display: block; width: 100%; height: auto;
-  border-radius: 14px; border: 1px solid var(--rule);
+  border-radius: 14px;
 }
 .shots figcaption { text-align: center; font-size: 0.85rem; color: var(--muted); margin-top: 0.4rem; }
 
